@@ -62,7 +62,7 @@ else:
     print("No corresponding sub topic for the current hour.")
 
 # Prompt for ChatGPT
-GPT_PROMPT = "Write me a motivational, inspirational tweet that gives positive vibes in less than 250 letters about {} and {}. The current time is {}. Please consider the year or month or date or time or part of the day when writing the poem. Add relevant tags at the end. Dont use special characters other than # in the tags. The total output should not exceed 280 characters".format(
+GPT_PROMPT = "Write me a motivational, inspirational tweet to inspire people in less than 250 letters about {} and {}. The current time is {}. Please consider the year or month or date or time or part of the day when writing the poem. Add relevant tags at the end. Dont use special characters other than # in the tags. Do not use the words - whisper and embrace. The total output should not exceed 280 characters".format(
     selected_topic, selected_sub_topic, formatted_datetime
 )
 
